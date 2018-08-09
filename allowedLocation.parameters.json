@@ -2,7 +2,7 @@
       "listOfAllowedLocations": {
         "type": "Array",
         "metadata": {
-          "description": "The list of locations to audit against.",
+          "description": "The list of allowed locations",
           "strongType": "location",
           "displayName": "Allowed locations"
         }
