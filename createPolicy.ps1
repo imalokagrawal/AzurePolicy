@@ -1,0 +1,1 @@
+New-AzureRmPolicyDefinition -Name "demo-allowedlocation" -DisplayName "Demo Allowed locations" -description "Demo Description" -Policy 'allowedLocation.rules.json' -Parameter 'allowedLocation.parameters.json' -Mode Indexed -ManagementGroupName 12345
